@@ -91,6 +91,7 @@ public static ArrayList eatArray;
         StringTokenizer strTok;
         BufferedReader in = new BufferedReader(new FileReader(productsFile.getAbsoluteFile()));
         String temp;
+        in.readLine();
         while((temp = in.readLine()) != null){
             strTok =  new StringTokenizer(temp, " \t\n\r,.");
         sbNumber = strTok.nextToken();
@@ -124,6 +125,7 @@ public static ArrayList eatArray;
     }
         String temp;
     try {
+        in.readLine();
         while((temp = in.readLine()) != null){
             strTok =  new StringTokenizer(temp, " \t\n\r,.");
             sbNumber = strTok.nextToken();
@@ -174,6 +176,7 @@ public static ArrayList eatArray;
     }
         String temp;
     try {
+        in.readLine();
         while((temp = in.readLine()) != null){
             strTok =  new StringTokenizer(temp, " \t\n\r,.");
             sbNumber = strTok.nextToken();

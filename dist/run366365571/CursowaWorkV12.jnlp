@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CursowaWorkV12_browser.jnlp">
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CursowaWorkV12.jnlp">
   <information>
     <title>CursowaWorkV12</title>
     <vendor>ZEUS</vendor>
@@ -8,9 +8,9 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="CursowaWorkV12.jar" size="28116" download="eager" />
+    <jar href="CursowaWorkV12.jar" size="28081" download="eager" />
   </resources>
-  <applet-desc  width="800" height="600" main-class="cursowaworkv12.CursowaWorkV12"  name="CursowaWorkV12" >
-  </applet-desc>
+  <application-desc main-class="cursowaworkv12.CursowaWorkV12"  name="CursowaWorkV12" >
+  </application-desc>
   <update check="always"/>
 </jnlp>
